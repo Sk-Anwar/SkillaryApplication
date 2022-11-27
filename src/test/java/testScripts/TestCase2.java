@@ -5,10 +5,10 @@ import org.testng.annotations.Test;
 import genericLibraries.BaseClass;
 
 public class TestCase2 extends BaseClass{
-	
+
 	@Test
 	public void secondTest() {
-		
+
 		home.clickGearsTab();
 		home.clickSkillRaryDemoAppLink();
 		webdriver.switchToWindow();
